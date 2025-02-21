@@ -30,7 +30,7 @@ Arguments:
 
 `<NumberIterations>`: You can run the program for multiple iterations to evaluate the stochasticity. Use 1 for most cases.
 
-<Moduli>: The modulus parameter (N) influences both security and performance of the FHE method. Increasing the value of N enhances security but reduces performance. To simplify usage, we currently restrict N to the following options: $2^{13}, 2^{14}, 2^{15}$, and $2^{16}$. (When running the command, use integers $0, 1, 2, 3$ for $2^{13}, 2^{14}, 2^{15}, 2^{16}$.) Other FHE parameters are automatically set based on the Lattigo defaults. Users can adjust the balance between security and computational cost by selecting an appropriate value for N and using the `-pq` option for Lattigo parameters that achieve post-quantum security. 
+`<Moduli>`: The modulus parameter (N) influences both security and performance of the FHE method. Increasing the value of N enhances security but reduces performance. To simplify usage, we currently restrict N to the following options: $2^{13}, 2^{14}, 2^{15}$, and $2^{16}$. (When running the command, use integers $0, 1, 2, 3$ for $2^{13}, 2^{14}, 2^{15}, 2^{16}$.) Other FHE parameters are automatically set based on the Lattigo defaults. Users can adjust the balance between security and computational cost by selecting an appropriate value for N and using the `-pq` option for Lattigo parameters that achieve post-quantum security. 
 
 `<NumberIndividual>`: Number of individuals included in your `<genotypes.csv>` file.
 
